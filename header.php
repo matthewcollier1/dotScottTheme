@@ -21,19 +21,14 @@
         <a href="<?php echo site_url( '/')?>"><img src= <?php echo get_theme_file_uri("/img/logo-splat.png") ?> alt=""></a>
         </div>
         <div class="hero-nav__inner--right">
-            <ul>
-                <a href="<?php echo site_url('/about') ?>"><button><li>About</li></button></a>
+            <?php 
 
-                <a href="<?php echo site_url('/me') ?>"><button><li>Me</li></button></a>
+            wp_nav_menu(array(
+                'theme_location' => 'headerMenuLocation'
+            ));
 
-                <a href="<?php echo site_url('/portfolio') ?>"><button><li>Portfolio</li></button></a>
-
-                <a href="<?php echo site_url('/ducks') ?>"><button><li>Ducks</li> </button></a>
-            </ul>
+            ?>
         </div> 
 
     </div>
-</div>
-
-
-    
+</div>    

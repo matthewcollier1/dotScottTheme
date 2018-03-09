@@ -1,0 +1,12 @@
+/* Buttons */
+
+$button-border-colour: white;
+$button-border-hover: rgb(168, 186, 247);
+.menu-item {
+    text-transform: uppercase;
+    border: 1px solid $button-border-colour;
+    color: white;
+    a {
+        color: white;
+    }
+}

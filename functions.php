@@ -10,7 +10,16 @@ function dotscott_theme() {
 add_action( 'wp_enqueue_scripts', 'dotscott_theme' );
 
 function dotscott_features() {
-    register_nav_menu( 'headerMenu', 'Header Menu' );
+    register_nav_menu( 'headerMenuLocation', 'Header Menu Location' );
 }
 
-add_action( 'after-setup-theme', 'dotscott_features' );
+
+add_action( 'after_setup_theme', 'dotscott_features' );
+
+
+
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
