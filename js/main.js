@@ -1,6 +1,8 @@
 jQuery(function ($) {
 	$(document).ready(function () {
 
+		//hero shrink animation
+
 		let heroShrinker = function () {
 			let hero = $('.hero-nav'),
 				heroHeight = $('.hero-nav').outerHeight(true);
@@ -23,7 +25,6 @@ jQuery(function ($) {
 			});
 		};
 		heroShrinker();
-
-
 	});
+
 });
