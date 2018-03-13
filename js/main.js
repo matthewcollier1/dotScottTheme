@@ -8,7 +8,7 @@ jQuery(function ($) {
 				heroHeight = $('.hero-nav').outerHeight(true);
 
 
-			$(hero).parent().css('padding-top', heroHeight);
+			$(hero).parent().css('padding-top', heroHeight - 38);
 
 			$(window).scroll(function () {
 				let scrollOffset = $(window).scrollTop();
@@ -16,7 +16,7 @@ jQuery(function ($) {
 					$(hero).css('height', (heroHeight - scrollOffset));
 
 				}
-				if (scrollOffset > (heroHeight - 90)) {
+				if (scrollOffset > (heroHeight - 250)) {
 					hero.addClass('fixme');
 				} else {
 					hero.removeClass('fixme');

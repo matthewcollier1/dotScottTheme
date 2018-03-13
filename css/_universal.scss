@@ -1,0 +1,14 @@
+@import 'styling';
+html {
+    font-size: $h1FontSize;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: $secondaryFont;
+}
+
+h1 {
+    font-size: $h1FontSize;
+}

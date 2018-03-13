@@ -1,0 +1,113 @@
+@import 'styling.scss';
+/* Header Section */
+
+.hero-nav {
+    position: fixed;
+    z-index: 300;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 400px;
+    min-height: 105px;
+    overflow: hidden;
+    -webkit-transition: background-color 1s;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
+    font-family: $secondaryFont;
+    .hero-nav__inner {
+        z-index: 1;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    h2 {
+        color: #201d1dab;
+        font-size: 5vw;
+        z-index: 5;
+    }
+    &:before {
+        content: "";
+        background: rgba(#000, 0);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transition: background 400s;
+        transition: background 400s;
+    }
+    &.fixme {
+        -webkit-box-shadow: -4px 10px 19px #0000005e;
+        box-shadow: -4px 10px 19px #0000005e;
+        background-color: #f0eeeb;
+    }
+}
+
+.hero-nav__inner--left {
+    width: 50%;
+    height: 100%;
+    @include flexCenter;
+    h5 {
+        padding-left: 1rem;
+        margin: 0;
+        padding: 0.5rem 0 0 1rem;
+        z-index: 100;
+    }
+    img {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0.7;
+    }
+}
+
+.hero-nav__inner--center {
+    img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: -10%;
+        height: 110%;
+        z-index: 1;
+    }
+}
+
+.hero-nav__inner--right {
+    width: 50%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        a {
+            text-decoration: none;
+        }
+        li {
+            padding: 0 0.5rem;
+            list-style: none;
+            color: #efefef;
+            margin: 0.3em;
+        }
+    }
+}

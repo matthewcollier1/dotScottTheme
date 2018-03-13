@@ -1,0 +1,26 @@
+/* Colours */
+
+$backgroundColour: rgb(85, 201, 255);
+$hoverColour: #65aaa9;
+/* Typography */
+
+$primaryFont:'Ubuntu',
+sans-serif;
+$secondaryFont:'Oxygen',
+sans-serif;
+/* Fonts */
+
+$h1FontSize: 16px;
+/* Mixins */
+
+@mixin flexCenter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
