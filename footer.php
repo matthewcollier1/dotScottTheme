@@ -5,15 +5,14 @@
     <div class="footer">
         <div class="footer__left">
 
-            <form id="form" class="topBefore">  
+            <p>dotscottstudio@gmail.com</p>
 
-                <input id="name" type="text" placeholder="NAME">
-                <input id="email" type="text" placeholder="E-MAIL">
-                <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-                <input id="submit" type="submit" value="GO!"> 
+        </div>
 
-            </form>
+        <div class="footer__center">
 
+            <img src= <?php echo get_theme_file_uri("/img/DSSlogo.png") ?> alt="">
+            
         </div>
  
         <div class="footer__right">

@@ -15,6 +15,11 @@
     -webkit-transition: background-color 2s;
     transition: background-color 2s;
     font-family: $secondaryFont;
+    &--canvas {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
     .hero-nav__inner {
         z-index: 1;
         height: 100%;
@@ -110,4 +115,8 @@
             margin: 0.3em;
         }
     }
+}
+
+.menu-header-menu-container {
+    position: absolute;
 }

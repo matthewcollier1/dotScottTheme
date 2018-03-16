@@ -28,3 +28,23 @@ jQuery(function ($) {
 	});
 
 });
+
+let heroNav = document.querySelector('.hero-nav__inner--right');
+
+if (matchMedia) {
+	const mq = window.matchMedia('(min-width: 768px)');
+	mq.addListener(WidthChange);
+	WidthChange(mq);
+}
+
+function WidthChange(mq) {
+	if (mq.matches) {
+		console.log('hello');
+		heroNav.style.display = 'flex';
+
+	} else {
+		console.log('goodbye');
+		heroNav.style.display = 'none';
+
+	}
+}

@@ -13,10 +13,13 @@
 <!-- Header -->
 
 <div class="hero-nav">
+
+<img class="hero-nav--canvas" src= <?php echo get_theme_file_uri("/img/blankcanvas_sample.jpg") ?> alt="">
     <div class="hero-nav__inner">
+    
         <div class="hero-nav__inner--left">
 
-            <img src= <?php echo get_theme_file_uri("/img/blankcanvas_sample.jpg") ?> alt="">
+            
             <h2><?php  echo get_bloginfo( 'name' )?></h2>
             <h5><?php echo get_bloginfo( 'description' ) ?></h5>
 

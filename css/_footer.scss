@@ -1,5 +1,5 @@
 footer {
-    height: 30vh;
+    height: 6rem;
 }
 
 .footer {
@@ -9,31 +9,22 @@ footer {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    background-color: #2443705c;
     text-align: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #65aaa9;
-}
-
-.footer-center {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    background-color: #65aaa933;
+    &__center {
+        img {
+            height: 6rem;
+        }
+    }
 }
 
 .svg-inline--fa.fa-w-14 {
     width: 3rem;
     height: 3rem;
-    color: antiquewhite;
+    color: #274977
 }
 
 #form {
