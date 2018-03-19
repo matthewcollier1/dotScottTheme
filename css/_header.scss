@@ -120,3 +120,22 @@
 .menu-header-menu-container {
     position: absolute;
 }
+
+.hero-nav__inner--right--mobile {
+    z-index: 2;
+    display: none;
+    width: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.svg-inline--fa {
+    height: 2em;
+    margin: 1em;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 2em;
+    color: #5b5959;
+}

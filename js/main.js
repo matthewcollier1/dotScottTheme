@@ -30,6 +30,8 @@ jQuery(function ($) {
 });
 
 let heroNav = document.querySelector('.hero-nav__inner--right');
+let heroMobile = document.querySelector('.hero-nav__inner--right--mobile');
+
 
 if (matchMedia) {
 	const mq = window.matchMedia('(min-width: 768px)');
@@ -40,11 +42,13 @@ if (matchMedia) {
 function WidthChange(mq) {
 	if (mq.matches) {
 		console.log('hello');
-		heroNav.style.display = 'flex';
+		heroNav.setAttribute('style', 'display: flex');
+		heroMobile.setAttribute('style', 'display: none');
 
 	} else {
 		console.log('goodbye');
-		heroNav.style.display = 'none';
+		heroNav.setAttribute('style', 'display: none');
+		heroMobile.setAttribute('style', 'display: flex');
 
 	}
 }

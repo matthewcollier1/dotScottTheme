@@ -91,5 +91,32 @@ button:hover:before {
     -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
     -webkit-box-shadow: -2px 5px 8px #dbb8b8;
-            box-shadow: -2px 5px 8px #dbb8b8;
+    box-shadow: -2px 5px 8px #dbb8b8;
+}
+
+.artofwhere-shop-link::before,
+.threadless-shop-link::before {
+    border-top-color: rgb(78, 182, 181);
+    border-left-color: rgb(78, 182, 181);
+}
+
+.artofwhere-shop-link::after,
+.threadless-shop-link::after {
+    border-bottom-color: rgb(78, 182, 181);
+    border-right-color: rgb(78, 182, 181);
+}
+
+.artofwhere-shop-link:hover,
+.threadless-shop-link:hover {
+    background-color: rgba(78, 182, 181, 0.15);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: -2px 5px 8px #dbb8b8;
+    box-shadow: -2px 5px 8px #dbb8b8;
+}
+
+.artofwhere-shop-link,
+.threadless-shop-link {
+    -webkit-transition: all 1s ease-in;
+    transition: all 1s ease-in;
 }
