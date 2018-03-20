@@ -298,7 +298,6 @@ footer {
 /* Buttons */
 .menu-item {
   text-transform: uppercase;
-  border: 1px solid white;
   color: white;
   -webkit-transition: all 1s;
   transition: all 1s; }
@@ -393,18 +392,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 50%;
-  height: 30rem; }
+  width: 100%; }
   .main__container--alternates a {
     width: 100%;
     display: -webkit-box;
@@ -430,15 +418,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 7rem; }
+  margin: 5rem 0; }
 
 .threadless-shop-link,
 .artofwhere-shop-link {
@@ -454,10 +434,10 @@ h1 {
     background-color: #65aaa9; }
 
 .artofwhere-shop-link {
-  background-image: url("../img/AOW_DSS_Link.png"); }
+  background-image: url("../img/AOW_DSS_Link11.png"); }
 
 .threadless-shop-link {
-  background-image: url("../img/Threadless_DSS_Link.png"); }
+  background-image: url("../img/Threadless_DSS_link2.png"); }
 
 /* Colours */
 /* Typography */
@@ -618,8 +598,12 @@ textarea {
 .image-slide-container__right {
   width: 50%; }
 
-.threadless-shop-link-test img {
-  height: 100%;
-  width: 100%; }
+/* .threadless-shop-link-test {
+    opacity: 0;
+    img {
+        height: 25%;
+        width: 25%;
+    }
+} */
 
 /*# sourceMappingURL=main.css.map */

@@ -31,6 +31,7 @@ jQuery(function ($) {
 
 let heroNav = document.querySelector('.hero-nav__inner--right');
 let heroMobile = document.querySelector('.hero-nav__inner--right--mobile');
+let alternatesMobile = document.querySelector('.main__container--alternates');
 
 
 if (matchMedia) {
@@ -44,11 +45,29 @@ function WidthChange(mq) {
 		console.log('hello');
 		heroNav.setAttribute('style', 'display: flex');
 		heroMobile.setAttribute('style', 'display: none');
+		alternatesMobile.setAttribute('style', 'flex-direction: row');
 
 	} else {
 		console.log('goodbye');
 		heroNav.setAttribute('style', 'display: none');
 		heroMobile.setAttribute('style', 'display: flex');
+		alternatesMobile.setAttribute('style', 'flex-direction: column');
 
 	}
 }
+
+/* jQuery(function ($) {
+	$(document).ready(function () {
+
+		// image carousel
+
+		setInterval(function () {
+			$('#c > :first-child').fadeOut(1000, function () {
+				$(this).next('li').fadeIn(5000).addClass('active').end().appendTo('#c');
+			});
+		});
+
+
+	});
+
+}); */
