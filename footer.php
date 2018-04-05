@@ -17,9 +17,9 @@
  
         <div class="footer__right">
 
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/dotscottstudio/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/dotscottstudio" target="_blank"><i class="fab fa-twitter-square"></i></a>
 
         </div>
 

@@ -14,7 +14,7 @@
     -webkit-transition: background-color 1s;
     -webkit-transition: background-color 2s;
     transition: background-color 2s;
-    font-family: $secondaryFont;
+    font-family: $primaryFont;
     &--canvas {
         height: 100%;
         width: 100%;
@@ -37,6 +37,7 @@
         color: #201d1dab;
         font-size: 5vw;
         z-index: 5;
+        font-weight: lighter;
     }
     &:before {
         content: "";

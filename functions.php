@@ -4,7 +4,7 @@ function dotscott_theme() {
     wp_enqueue_script( 'dotscott_js', get_theme_file_uri('/js/main.js'), array('jquery'), null, true );
     wp_enqueue_style( 'dotscott_custom_style', get_theme_file_uri('/css/main.css'), NULL, microtime() );
     wp_enqueue_style( 'dotscott_main_stlye', get_stylesheet_uri(), NULL, microtime() );
-    wp_enqueue_style( 'custom-font', '//fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' );
+    wp_enqueue_style( 'custom-font', '//fonts.googleapis.com/css?family=Pacifico' );
     wp_enqueue_style( 'custom-font-two', '//fonts.googleapis.com/css?family=Oxygen:300,400' );
     wp_enqueue_script( 'font-awesome', '//use.fontawesome.com/releases/v5.0.8/js/all.js' );
 }

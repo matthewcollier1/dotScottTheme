@@ -16,7 +16,7 @@
   -webkit-transition: background-color 1s;
   -webkit-transition: background-color 2s;
   transition: background-color 2s;
-  font-family: "Oxygen", sans-serif; }
+  font-family: "Pacifico", sans-serif; }
   .hero-nav--canvas {
     height: 100%;
     width: 100%;
@@ -36,7 +36,8 @@
   .hero-nav h2 {
     color: #201d1dab;
     font-size: 5vw;
-    z-index: 5; }
+    z-index: 5;
+    font-weight: lighter; }
   .hero-nav:before {
     content: "";
     background: rgba(0, 0, 0, 0);
