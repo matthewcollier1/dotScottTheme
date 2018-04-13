@@ -5,7 +5,7 @@
     <div class="main">
         <div class="main__container">
 
-            <img src="<?php the_post_thumbnail( 'full', attr ); ?>"/> 
+            <img src="<?php the_post_thumbnail( 'full', attr ); ?> 
             <h2><a href="http://dotscottstudio.etsy.com"><button>Shop Etsy</button></a></h2>
             
         </div>   

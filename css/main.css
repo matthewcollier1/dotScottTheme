@@ -535,6 +535,37 @@ textarea {
 #sb_instagram .sbi_follow_btn a {
   margin: 0; }
 
+@media only screen and (max-width: 768px) {
+  .hero-nav__inner--center img {
+    height: 80%;
+    top: 10%; }
+
+  .footer {
+    height: 15rem; }
+
+  .footer__left p {
+    font-size: 0.7rem;
+    margin-left: 3px; }
+
+  .main__container--alternates--holder {
+    margin: 0; }
+
+  .threadless-shop-link,
+  .artofwhere-shop-link {
+    height: 17rem; } }
+@media only screen and (max-width: 535px) {
+  .threadless-shop-link,
+  .artofwhere-shop-link {
+    height: 12rem; }
+
+  .fa-facebook-square,
+  .fa-instagram,
+  .fa-twitter-square {
+    margin: 0; }
+
+  .main__container h2 {
+    -webkit-box-shadow: none;
+    box-shadow: none; } }
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
